@@ -1,9 +1,7 @@
 /// Contains functions to generate the data to make an API call.
-/// Private because they return raw data and or errors.
-/// Private because they are intended to be called by query functions only.
 /// Contains the main functions of this library.
 /// Refer to the tests for usage information.
-mod api;
+pub mod api;
 
 /// Contains all the structs used to represent the data returned by the API.
 pub mod models;
