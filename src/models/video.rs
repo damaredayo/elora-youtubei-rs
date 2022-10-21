@@ -194,6 +194,7 @@ pub struct Format {
     pub audio_quality: Option<String>,
     pub audio_sample_rate: Option<String>,
     pub audio_channels: Option<i64>,
+    pub signature_cipher: Option<String>,
 }
 
 #[derive(Debug, Clone, Deserialize, PartialEq, Eq, PartialOrd, Ord)]
