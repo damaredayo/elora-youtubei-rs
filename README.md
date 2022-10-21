@@ -1,5 +1,6 @@
-# youtubei-rs
+# elora-youtubei-rs
 An asynchronous implementation of the Invidious InnerTube (aka youtubei) API wrapper.
+Forked for use in elora
 
 Uses `tokio`, `reqwest`, `serde` and `serde_json`.
 
